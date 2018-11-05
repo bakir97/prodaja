@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutButtons should render normal 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  justify="center"
+  style={
+    Object {
+      "marginBottom": 10,
+    }
+  }
+>
+  <WithStyles(Button)
+    id="layout12"
+    onClick={[Function]}
+  >
+    <pure(ViewStreamIcon) />
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    id="layout6"
+    onClick={[Function]}
+  >
+    <pure(ViewStreamIcon) />
+    <pure(ViewStreamIcon) />
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    id="layout4"
+    onClick={[Function]}
+  >
+    <pure(ViewStreamIcon) />
+    <pure(ViewStreamIcon) />
+    <pure(ViewStreamIcon) />
+  </WithStyles(Button)>
+</WithStyles(Grid)>
+`;

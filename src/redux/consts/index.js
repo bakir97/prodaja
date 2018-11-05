@@ -1,0 +1,9 @@
+export const LOADING_ACCOUNT = "LOADING_ACCOUNT";
+export const ERROR_LOGIN = "ERROR_LOGIN";
+export const SAVE_ACCOUNT = "SAVE_ACCOUNT";
+export const NEW_PROIZVOD = "NEW_PROIZVOD";
+export const LOADING_PROIZVOD = "LOADING_PROIZVOD";
+export const ERROR_PROIZVOD = "ERROR_PROIZVOD";
+export const GET_PROIZVODI = "GET_PROIZVODI";
+export const ONE_PROIZVOD = "ONE_PROIZVOD";
+export const SUCCESS = "SUCCESS";
