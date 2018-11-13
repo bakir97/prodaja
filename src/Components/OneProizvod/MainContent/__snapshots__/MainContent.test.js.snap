@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContent should render 1`] = `
+<Fragment>
+  <WithStyles(Grid)
+    item={true}
+    style={
+      Object {
+        "marginBottom": "2rem",
+        "textAlign": "center",
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "WebkitBackgroundClip": "text",
+          "background": "linear-gradient(to right, #373b44, #4286f4)",
+          "color": "transparent",
+        }
+      }
+      variant="h4"
+    />
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    container={true}
+    item={true}
+    justify="center"
+    xs={12}
+  >
+    <WithStyles(TextMobileStepper) />
+  </WithStyles(Grid)>
+  <WithStyles(Typography)
+    variant="h5"
+  />
+  <WithStyles(Grid)
+    container={true}
+    justify="center"
+    style={
+      Object {
+        "marginTop": "2rem",
+        "padding": "0 1rem",
+      }
+    }
+  >
+    <Text>
+      Tezina: 
+       KG
+    </Text>
+    <Text>
+      Cijena: 
+       KM
+    </Text>
+    <WithStyles(Grid)
+      item={true}
+      style={
+        Object {
+          "marginTop": "2rem",
+          "textAlign": "center",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(Button)>
+        <WithStyles(Typography)
+          style={
+            Object {
+              "WebkitBackgroundClip": "text",
+              "background": "linear-gradient(to right, #373b44, #4286f4)",
+              "color": "transparent",
+              "fontFamily": "Kalam",
+              "marginRight": "1rem",
+              "paddingBottom": 0,
+            }
+          }
+          variant="h5"
+        >
+          Dodaj u korpu
+        </WithStyles(Typography)>
+        <pure(AddShoppingCartIcon)
+          style={
+            Object {
+              "color": "#4286f4",
+              "marginBottom": 5,
+            }
+          }
+        />
+      </WithStyles(Button)>
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+</Fragment>
+`;
+
+exports[`Text should render 1`] = `
+<WithStyles(Grid)
+  item={true}
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+  xs={6}
+>
+  <WithStyles(Typography)
+    style={
+      Object {
+        "fontFamily": "Kalam",
+      }
+    }
+    variant="h5"
+  />
+</WithStyles(Grid)>
+`;

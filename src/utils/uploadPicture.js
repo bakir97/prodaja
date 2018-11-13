@@ -1,5 +1,5 @@
 import axios from "axios";
-export default async file => {
+export default async (file, errorServer) => {
   const formData = new FormData();
   formData.append("file", file);
   formData.append("upload_preset", "emsbshr7");
@@ -14,8 +14,6 @@ export default async file => {
     );
     return response.data.url;
   } catch (error) {
-    if (Object.keys(error.response.data.error).length > 0) {
-      this.setState({ error: true });
-    }
+    errorServer("Nesto nije u redu");
   }
 };

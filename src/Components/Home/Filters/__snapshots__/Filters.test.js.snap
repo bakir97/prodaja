@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters should render 1`] = `
+<Fragment>
+  <_default
+    id="minCijena"
+    label="minCijena"
+    onChange={[Function]}
+    position="end"
+  />
+  <_default
+    id="maxCijena"
+    label="maxCijena"
+    onChange={[Function]}
+    position="start"
+  />
+  <_default
+    id="minTezina"
+    label="minTezina"
+    onChange={[Function]}
+    position="end"
+  />
+  <_default
+    id="maxTezina"
+    label="maxTezina"
+    onChange={[Function]}
+    position="start"
+  />
+</Fragment>
+`;

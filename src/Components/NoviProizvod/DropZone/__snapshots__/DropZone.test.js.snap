@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropZone should render 1`] = `
+<WithStyles(Grid)
+  container={true}
+  item={true}
+  justify="center"
+  xs={12}
+>
+  <n
+    disableClick={false}
+    disablePreview={false}
+    disabled={false}
+    getDataTransferItems={[Function]}
+    inputProps={Object {}}
+    maxSize={Infinity}
+    minSize={0}
+    multiple={true}
+    onDrop={[Function]}
+    preventDropOnDocument={true}
+    style={
+      Object {
+        "border": "1px solid rgba(0, 0, 0, 0.23)",
+        "borderRadius": 4,
+        "height": 113,
+        "margin": 10,
+        "maxWidth": 600,
+        "width": "100%",
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.5)",
+          "paddingLeft": 10,
+        }
+      }
+    >
+      Prenesi slike ovdje ili pritisni za odabir
+    </p>
+  </n>
+</WithStyles(Grid)>
+`;

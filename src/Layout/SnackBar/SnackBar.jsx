@@ -2,12 +2,11 @@ import React from "react";
 import Snackbar from "@material-ui/core/Snackbar";
 import { withStyles } from "@material-ui/core/styles";
 import SnackBarComponent from "./SnackBarComponent";
-const styles2 = theme => ({
+const styles = theme => ({
   margin: {
     margin: theme.spacing.unit
   }
 });
-
 class CustomizedSnackbars extends React.Component {
   state = {
     open: true
@@ -40,4 +39,4 @@ class CustomizedSnackbars extends React.Component {
     );
   }
 }
-export default withStyles(styles2)(CustomizedSnackbars);
+export default withStyles(styles)(CustomizedSnackbars);

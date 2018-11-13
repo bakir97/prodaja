@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormItems should render 1`] = `
+<Fragment>
+  <WithStyles(Grid)
+    container={true}
+    item={true}
+    justify="center"
+    xs={12}
+  >
+    <_default
+      label="Naslov"
+      name="naslov"
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      name="opis"
+      type="text"
+    />
+    <_default />
+    <WithStyles(Grid)
+      item={true}
+      style={
+        Object {
+          "paddingRight": 5,
+        }
+      }
+      xs={6}
+    >
+      <_default
+        label="Tezina"
+        name="tezina"
+        type="text"
+      />
+    </WithStyles(Grid)>
+    <WithStyles(Grid)
+      item={true}
+      style={
+        Object {
+          "paddingLeft": 5,
+        }
+      }
+      xs={6}
+    >
+      <_default
+        label="Cijena"
+        name="cijena"
+        type="text"
+      />
+    </WithStyles(Grid)>
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Button)
+      disabled={true}
+      style={
+        Object {
+          "fontFamily": "Kalam",
+          "fontSize": 20,
+          "marginTop": 20,
+          "paddingBottom": 3,
+        }
+      }
+      type="submit"
+    >
+      Objavi Proizvod
+    </WithStyles(Button)>
+  </WithStyles(Grid)>
+</Fragment>
+`;

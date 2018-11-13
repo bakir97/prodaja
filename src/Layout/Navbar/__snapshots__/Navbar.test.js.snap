@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render 1`] = `
+<div>
+  <WithStyles(AppBar)
+    position="fixed"
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(IconButton)
+        aria-label="Menu"
+        color="inherit"
+        onClick={[Function]}
+      >
+        <pure(MenuIcon) />
+      </WithStyles(IconButton)>
+      <WithStyles(Typography)
+        color="inherit"
+        variant="h6"
+      >
+        Sell It
+      </WithStyles(Typography)>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+  <WithStyles(SwipeableTemporaryDrawer)
+    auth={true}
+    open={false}
+    promjenaDrawera={[Function]}
+  />
+</div>
+`;

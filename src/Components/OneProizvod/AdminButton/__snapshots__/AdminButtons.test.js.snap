@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminButtons should render 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  justify="center"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <WithStyles(Button)
+    id="edit"
+    onClick={[Function]}
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "WebkitBackgroundClip": "text",
+          "background": "linear-gradient(to right, #fdc830, #f37335)",
+          "color": "transparent",
+          "fontFamily": "Kalam",
+          "marginRight": "1rem",
+          "paddingBottom": 0,
+        }
+      }
+      variant="h5"
+    >
+      Edit
+    </WithStyles(Typography)>
+    <pure(EditIcon)
+      style={
+        Object {
+          "color": "#f37335",
+          "marginBottom": 5,
+        }
+      }
+    />
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    id="delete"
+    onClick={[Function]}
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "WebkitBackgroundClip": "text",
+          "background": "linear-gradient(to right, #333333, #dd1818)",
+          "color": "transparent",
+          "fontFamily": "Kalam",
+          "marginRight": "1rem",
+          "paddingBottom": 0,
+        }
+      }
+      variant="h5"
+    >
+      Delete
+    </WithStyles(Typography)>
+    <pure(DeleteIcon)
+      style={
+        Object {
+          "color": "#dd1818",
+          "marginBottom": 5,
+        }
+      }
+    />
+  </WithStyles(Button)>
+</WithStyles(Grid)>
+`;

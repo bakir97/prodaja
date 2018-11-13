@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards should render 1`] = `
+Array [
+  <WithStyles(Grid)
+    container={true}
+    item={true}
+    justify="center"
+    key="1"
+  >
+    <WithStyles(MyCard)
+      cijena={1}
+      id={1}
+      naslov="test"
+      slika={1}
+      tezina={1}
+    />
+  </WithStyles(Grid)>,
+  <WithStyles(Grid)
+    container={true}
+    item={true}
+    justify="center"
+    key="2"
+  >
+    <WithStyles(MyCard)
+      cijena={2}
+      id={2}
+      naslov="test2"
+      slika={1}
+      tezina={2}
+    />
+  </WithStyles(Grid)>,
+]
+`;

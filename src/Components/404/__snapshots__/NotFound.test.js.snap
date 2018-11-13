@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound should render normal 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  direction="column"
+  style={
+    Object {
+      "height": "calc(100vh - 7rem)",
+      "marginTop": "7rem",
+    }
+  }
+>
+  <img
+    alt="404"
+    src="404.png"
+    style={
+      Object {
+        "height": 300,
+        "maxWidth": 500,
+        "width": "100%",
+      }
+    }
+  />
+  <WithStyles(Typography)
+    style={
+      Object {
+        "fontFamily": "Kalam",
+        "marginTop": "2rem",
+      }
+    }
+    variant="h5"
+  >
+    Opps... Page not found
+  </WithStyles(Typography)>
+  <WithStyles(Button)
+    id="button"
+    onClick={[Function]}
+    style={
+      Object {
+        "marginTop": "2rem",
+      }
+    }
+  >
+    <WithStyles(Typography)
+      style={
+        Object {
+          "WebkitBackgroundClip": "text",
+          "background": "linear-gradient(to right, #373b44, #4286f4)",
+          "color": "transparent",
+          "fontFamily": "Kalam",
+          "paddingBottom": 0,
+        }
+      }
+      variant="h5"
+    >
+      go back to Home
+    </WithStyles(Typography)>
+  </WithStyles(Button)>
+</WithStyles(Grid)>
+`;

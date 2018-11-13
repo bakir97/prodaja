@@ -2,22 +2,8 @@ import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import List from "./List";
-const styles = {
-  list: {
-    width: 250
-  },
-  fullList: {
-    width: "auto"
-  },
-  paper: {
-    background: "linear-gradient(to top, #373b44, #4286f4)",
-    color: "white"
-  },
-  text: {
-    color: "white"
-  }
-};
-
+import style from "./style";
+const styles = style;
 class SwipeableTemporaryDrawer extends React.Component {
   promjenaSteta = () => {
     this.props.promjenaDrawera();

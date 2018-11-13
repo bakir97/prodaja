@@ -7,7 +7,6 @@ import Account from "@material-ui/icons/AccountCircle";
 import Add from "@material-ui/icons/AddCircleOutline";
 import HomeIcon from "@material-ui/icons/Home";
 import Divider from "@material-ui/core/Divider";
-
 import { Link } from "react-router-dom";
 import { withStyles } from "@material-ui/core/styles";
 const styles = {

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginContent should render 1`] = `
+<WithStyles(Grid)
+  alignItems="center"
+  container={true}
+  direction="column"
+  justify="center"
+  style={
+    Object {
+      "height": "100vh",
+      "padding": "0 1rem",
+    }
+  }
+>
+  <Field
+    component={[Function]}
+    label="Username"
+    name="username"
+  />
+  <Field
+    component={[Function]}
+    label="Password"
+    name="password"
+    type="password"
+  />
+  <WithStyles(Button)
+    style={
+      Object {
+        "fontFamily": "Kalam",
+        "fontSize": "1.5rem",
+        "paddingBottom": 0,
+      }
+    }
+    type="submit"
+  >
+    Login
+  </WithStyles(Button)>
+</WithStyles(Grid)>
+`;

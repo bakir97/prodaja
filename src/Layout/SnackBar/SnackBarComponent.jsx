@@ -4,43 +4,21 @@ import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import ErrorIcon from "@material-ui/icons/Error";
 import InfoIcon from "@material-ui/icons/Info";
 import CloseIcon from "@material-ui/icons/Close";
-import green from "@material-ui/core/colors/green";
 import IconButton from "@material-ui/core/IconButton";
 import SnackbarContent from "@material-ui/core/SnackbarContent";
 import WarningIcon from "@material-ui/icons/Warning";
 import { withStyles } from "@material-ui/core/styles";
+import style from "./style";
 const variantIcon = {
   success: CheckCircleIcon,
   warning: WarningIcon,
   error: ErrorIcon,
   info: InfoIcon
 };
-
-const styles1 = theme => ({
-  success: {
-    backgroundColor: green[600]
-  },
-  error: {
-    backgroundColor: theme.palette.error.dark
-  },
-  icon: {
-    fontSize: 20
-  },
-  iconVariant: {
-    opacity: 0.9,
-    marginRight: theme.spacing.unit
-  },
-  message: {
-    display: "flex",
-    alignItems: "center",
-    marginRight: 10
-  }
-});
-
+const styles = theme => style(theme);
 const SnackbarComponent = props => {
   const { classes, className, message, onClose, variant, ...other } = props;
   const Icon = variantIcon[variant];
-
   return (
     <SnackbarContent
       className={classNames(classes[variant], className)}
@@ -56,9 +34,8 @@ const SnackbarComponent = props => {
           key="close"
           aria-label="Close"
           color="inherit"
-          className={classes.close}
+          className={classes.iconButton}
           onClick={onClose}
-          style={{ position: "absolute", top: 0, right: 0 }}
         >
           <CloseIcon className={classes.icon} />
         </IconButton>
@@ -68,4 +45,4 @@ const SnackbarComponent = props => {
   );
 };
 
-export default withStyles(styles1)(SnackbarComponent);
+export default withStyles(styles)(SnackbarComponent);

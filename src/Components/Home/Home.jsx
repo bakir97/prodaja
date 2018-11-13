@@ -6,10 +6,10 @@ class Home extends Component {
     show: false
   };
   componentDidMount() {
-    window.addEventListener("scroll", this.proba);
+    window.addEventListener("scroll", this.handleScroll);
   }
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.proba);
+    window.removeEventListener("scroll", this.handleScroll);
   }
   scrollToTop = () => {
     window.scroll({
@@ -17,7 +17,7 @@ class Home extends Component {
       behavior: "smooth"
     });
   };
-  proba = () => {
+  handleScroll = () => {
     if (
       document.body.scrollTop > 1000 ||
       document.documentElement.scrollTop > 1000

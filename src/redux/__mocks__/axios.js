@@ -5,6 +5,8 @@ export default {
       error: { response: { data: "nista" } }
     })
   ),
+  get: jest.fn(() => Promise.resolve({ data: { name: "test", cijena: 5 } })),
+  delete: jest.fn(() => Promise.resolve()),
   defaults: {
     headers: {
       common: {

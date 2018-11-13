@@ -9,11 +9,11 @@ import Typography from "@material-ui/core/Typography";
 import Style from "./style";
 const styles = Style;
 
-function ImgMediaCard(props) {
+export const MyCard = props => {
   const { classes, naslov, cijena, slika, tezina, id, history } = props;
   return (
     <Card className={classes.card}>
-      <CardActionArea onClick={() => history.push(`/Proizvod/${id}`)}>
+      <CardActionArea id="area" onClick={() => history.push(`/Proizvod/${id}`)}>
         <CardMedia
           component="img"
           alt="slika"
@@ -36,12 +36,11 @@ function ImgMediaCard(props) {
       </CardActionArea>
       <CardActions>
         <Typography className={classes.button}>{tezina} KG</Typography>
-
         <Typography className={classes.button} style={{ marginLeft: "auto" }}>
           {cijena} KM
         </Typography>
       </CardActions>
     </Card>
   );
-}
-export default withStyles(styles)(ImgMediaCard);
+};
+export default withStyles(styles)(MyCard);

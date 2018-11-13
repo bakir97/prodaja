@@ -1,5 +1,5 @@
 export default {
-  rott: { height: "calc(100vh - 7rem)", marginTop: "7rem" },
+  root: { height: "calc(100vh - 7rem)", marginTop: "7rem" },
   text: {
     fontFamily: "Kalam",
     paddingBottom: 0,

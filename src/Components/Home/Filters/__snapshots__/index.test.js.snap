@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter index should render 1`] = `
+<WithStyles(Grid)
+  alignContent="center"
+  alignItems="center"
+  container={true}
+  justify="center"
+  style={
+    Object {
+      "padding": 10,
+    }
+  }
+>
+  <Filters
+    changeCijenaMax={[Function]}
+    changeCijenaMin={[Function]}
+    changeTezinaMax={[Function]}
+    changeTezinaMin={[Function]}
+  />
+</WithStyles(Grid)>
+`;

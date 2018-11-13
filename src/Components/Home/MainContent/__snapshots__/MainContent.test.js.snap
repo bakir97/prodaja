@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContent should render 1`] = `
+<MainContent
+  classes={
+    Object {
+      "rootDesktop": "MainContent-rootDesktop-2",
+      "rootMobile": "MainContent-rootMobile-1",
+      "slika": "MainContent-slika-3",
+    }
+  }
+  proizvodi={
+    Array [
+      Object {
+        "_id": 1,
+        "cijena": 1,
+        "naslov": "test",
+        "slike": Array [
+          1,
+          2,
+        ],
+        "tezina": 1,
+      },
+      Object {
+        "_id": 2,
+        "cijena": 2,
+        "naslov": "test2",
+        "slike": Array [
+          1,
+          2,
+        ],
+        "tezina": 2,
+      },
+    ]
+  }
+/>
+`;

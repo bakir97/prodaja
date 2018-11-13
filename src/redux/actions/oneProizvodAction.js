@@ -26,6 +26,11 @@ export const deleteOneProizvod = id => async dispatch => {
     dispatch(success(true));
     dispatch(loading(false));
   } catch (error) {
+    dispatch(
+      errorPostProizvod(
+        "Server trenutno ne radi pokusajte kasnije ili se obratite programeru"
+      )
+    );
     dispatch(loading(false));
   }
 };

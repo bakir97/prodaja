@@ -11,5 +11,7 @@ export default {
   menuButton: {
     marginLeft: -12,
     marginRight: 20
-  }
+  },
+  text: { marginRight: 5 },
+  icon: { paddingLeft: 5 }
 };

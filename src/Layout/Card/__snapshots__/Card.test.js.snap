@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render 1`] = `
+<WithStyles(Card)>
+  <WithStyles(CardActionArea)
+    id="area"
+    onClick={[Function]}
+  >
+    <WithStyles(CardMedia)
+      alt="slika"
+      component="img"
+      height="250"
+      title="slika"
+    />
+    <WithStyles(CardContent)
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+    >
+      <WithStyles(Typography)
+        component="h2"
+        gutterBottom={true}
+        noWrap={true}
+        variant="h5"
+      />
+    </WithStyles(CardContent)>
+  </WithStyles(CardActionArea)>
+  <WithStyles(CardActions)>
+    <WithStyles(Typography)>
+       KG
+    </WithStyles(Typography)>
+    <WithStyles(Typography)
+      style={
+        Object {
+          "marginLeft": "auto",
+        }
+      }
+    >
+       KM
+    </WithStyles(Typography)>
+  </WithStyles(CardActions)>
+</WithStyles(Card)>
+`;

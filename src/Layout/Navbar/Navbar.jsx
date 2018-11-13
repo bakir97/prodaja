@@ -14,7 +14,7 @@ import navbarStyles from "./navbarStyles";
 import Logout from "../../assets/logout.png";
 
 const styles = navbarStyles;
-class Navbar extends Component {
+export class Navbar extends Component {
   state = {
     open: false
   };
@@ -51,12 +51,12 @@ class Navbar extends Component {
                 <Typography
                   variant="h6"
                   color="inherit"
-                  style={{ marginRight: 5 }}
+                  style={navbarStyles.text}
                 >
                   {auth.username}
                 </Typography>
                 <IconButton onClick={this.handleLogout}>
-                  {<img src={Logout} style={{ paddingLeft: 5 }} alt="" />}
+                  {<img src={Logout} style={navbarStyles.icon} alt="" />}
                 </IconButton>
               </>
             )}

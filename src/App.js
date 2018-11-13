@@ -6,7 +6,7 @@ import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import NoviProizvod from "./Components/NoviProizvod/NoviProizvod";
 import Login from "./Components/UserAuth/Login/Login";
 import { connect } from "react-redux";
-import NotFound from "./Components/404/NotFound";
+import NotFound from "./Components/404";
 import OneProizvod from "./Components/OneProizvod/OneProizvod";
 class App extends Component {
   routes = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from "./SearchBar";
+import SearchBar from "./index";
 describe("<SearchBar/>", () => {
   const wrapper = shallow(<SearchBar />);
   it("should render", () => {

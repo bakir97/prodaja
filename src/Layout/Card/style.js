@@ -7,7 +7,7 @@ export default {
   },
   media: {
     // ⚠️ object-fit is not supported by IE11.
-    objectFit: "contain"
+    objectFit: "cover"
   },
   button: {
     color: "transparent",

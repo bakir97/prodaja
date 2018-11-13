@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollToTop should render 1`] = `
+<WithStyles(IconButton)
+  id="button"
+  onClick={[Function]}
+  style={
+    Object {
+      "bottom": "2rem",
+      "position": "fixed",
+      "right": "1rem",
+    }
+  }
+>
+  <pure(NavigationIcon)
+    style={
+      Object {
+        "fontSize": 30,
+      }
+    }
+  />
+</WithStyles(IconButton)>
+`;

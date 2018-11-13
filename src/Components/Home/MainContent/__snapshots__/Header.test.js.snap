@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render 1`] = `
+<Fragment>
+  <WithStyles(Grid)
+    container={true}
+    justify="center"
+  >
+    <WithStyles(Grid)
+      container={true}
+      item={true}
+      justify="center"
+      xs={12}
+    >
+      <SearchBarComponent
+        search={[Function]}
+      />
+    </WithStyles(Grid)>
+    <SwitchComponent
+      changeFiltersState={[Function]}
+      filters={false}
+    />
+  </WithStyles(Grid)>
+  <LayoutButtons />
+</Fragment>
+`;
